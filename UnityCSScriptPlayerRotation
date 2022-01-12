@@ -1,0 +1,16 @@
+ //  - Unity - Create a Script to rotate the player's view from left to  right:  
+
+using System.Collections.Generic;
+using System.Collections;
+using UnityEngine;
+
+public class playerRotation : MonoBehaviour {
+    
+    
+    void Update()
+    {
+       ;
+    }
+    
+}
+
