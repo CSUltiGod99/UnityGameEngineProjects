@@ -5,11 +5,22 @@ using System.Collections;
 using UnityEngine;
 
 public class playerRotation : MonoBehaviour {
+  // add floats:
+    public float 
+    Treansform 
+    
     
     
     void Update()
     {
-       ;
+       if (Input.GetKeyDown(KeyCode.F))
+       {
+               input.GetAxis("Horizontal");
+       }
+       if (Input.GetKeyDown(KeyCode.R))
+       {
+          Input.GetAxis("Vertical");
+       }  
     }
     
 }
