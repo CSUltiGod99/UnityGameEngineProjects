@@ -1,4 +1,4 @@
-
+   //  -  Unity Scripts  -  Create a Triggered Event in Unity w GameObject:
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,16 +6,23 @@ using UnityEngine;
 public class OTonGameObject : MonoBehaviour {
     public GameObject triggerTarget;
     
-    void OnTriggerEvent()
+    void OnTriggerEnter()
     {
-       n
+     // Make sure to have the GameObject set to inactive by clicking the top right tick
+     // in "Hierarchy"
+         triggerTarget.SetActive(false);
     }
     
     void OnTriggerStay()
     {
-         []
+         trigger.SetActive(true);
     }
     
-
+    void OnTriggerExit()
+    {
+     //
+      // 
+         triggerTarget.SetActive(false);
+    }     
 }
 
