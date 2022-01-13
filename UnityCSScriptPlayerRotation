@@ -6,21 +6,36 @@ using UnityEngine;
 
 public class playerRotation : MonoBehaviour {
   // add floats:
-    public float 
-    Treansform 
-    
-    
+    public float rotationSpeed = 1.0f;
+    public float speed = 1.0f; 
     
     void Update()
     {
-       if (Input.GetKeyDown(KeyCode.F))
-       {
-               input.GetAxis("Horizontal");
-       }
-       if (Input.GetKeyDown(KeyCode.R))
-       {
-          Input.GetAxis("Vertical");
-       }  
+       float translation = Input.GetAxis("Vertical") * speed;
+       float rotation Input.Getaxis("Horizontal") * rotationSpeed;
+      
+    
+         // Key Input = F
+       
+       
+     
+               
+               
+               
+       
+       
+       
+         // Key input = R
+       
+          // #
+          
+          
+          // Make it move 10 meters per second instead of 10 meters per frame...
+        translation *= Time.deltaTime;
+        rotation *= Time.deltaTime;
+          
+          
+       
     }
     
 }
