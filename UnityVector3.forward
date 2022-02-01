@@ -1,0 +1,22 @@
+
+//  -  Make an GameObject Move Forward on the Z-Axis:   
+
+using System.Collections;
+using UnityEngine;
+
+public class enemyMoveFrward : Monobehaviour
+{
+
+   void Start()
+   {
+        //
+   }
+
+   void Update()
+   {
+   
+       // - Drag & Attach this script to a gameObject before test run:
+      transform.position += Vector3.forward * Time.deltaTime;
+   }
+}
+
