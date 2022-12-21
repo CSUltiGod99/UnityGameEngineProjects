@@ -1,0 +1,11 @@
+// Unity c# - Transform Target:
+
+// source code:
+
+
+using UnityEngine;
+
+public class objectStare : MonoBehaviour {
+    public Transform target;
+   
+}
