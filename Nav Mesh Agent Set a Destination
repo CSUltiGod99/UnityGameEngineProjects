@@ -13,22 +13,19 @@ Public class distantEnemy : MonoBehaviour
   void Start()
   {
     agent = GetComponent<MeshAgent>();
+    destination = agent.destination;
   }
 
   void Update()
   {
-    if(Vector3.Distance(destination
+    if(Vector3.Distance(destination, target.position) > 1.0f)
+    {
+      destination = target.position;
+      agent.destination = destination; //   
+    }
+    
   }
 
-
-
-
-
-
-
-
-
-
-
+}
 
 
