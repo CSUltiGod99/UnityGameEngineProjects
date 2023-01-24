@@ -1,0 +1,34 @@
+ // Unity C# - Vector3  Make a NavMeshAgent to send to a setDestination:
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.AI;
+
+Public class distantEnemy : MonoBehaviour
+{
+
+  public Vector3 destination;
+  NavMeshAgent agent;
+  
+  void Start()
+  {
+    agent = GetComponent<MeshAgent>();
+  }
+
+  void Update()
+  {
+    if(Vector3.Distance(destination
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
