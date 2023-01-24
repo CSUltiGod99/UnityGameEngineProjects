@@ -2,10 +2,16 @@
 
 // source code:
 
-
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class objectStare : MonoBehaviour {
     public Transform target;
+    
+    void Update()
+    {
+        transform.LookAt(target);
+    }
    
 }
