@@ -15,13 +15,13 @@ public class OTonGameObject : MonoBehaviour {
     
     void OnTriggerStay()
     {
-         trigger.SetActive(true);
+         triggerTarget.SetActive(true);
     }
     
     void OnTriggerExit()
     {
      //
-      // 
+      // - The SetActive method with false will make the Object disappear from the Scene
          triggerTarget.SetActive(false);
     }     
 }
