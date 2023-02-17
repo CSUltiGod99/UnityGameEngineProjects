@@ -1,0 +1,58 @@
+// CSharp - Game Engine: Unity3d - Pulse Color Light:
+
+// Source Code:
+
+public class pulsing_Color_Light : MonoBehaviour
+{  
+   public bool lightPulseStart = false;
+
+ // Light - Area Light:  
+    public Light li_1;
+    public Light l_2; 
+
+  // Colors change:
+    public color startColor;
+    public color   midColor *\  
+/
+// 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
