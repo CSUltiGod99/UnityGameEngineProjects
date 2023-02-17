@@ -1,0 +1,37 @@
+// CSharp - Unity - Disabling & Enabling Light:
+
+// Source Code:
+using System.Collections.Generic;
+using System.Collections;
+using UnityEngine;
+
+public class LightManagerExample : MonoBehavior 
+{
+   public Light roofLight;
+
+      /
+   // speed of light flickering:
+   public float speed = 2.7f;
+   // audio source when flicker starts:
+   public AudioSource AS;
+
+   void Start()
+   {
+      // X
+
+
+   void Update()
+   {
+      while (AS.play)
+      {
+        if(
+
+
+
+
+
+
+
+
+
+
