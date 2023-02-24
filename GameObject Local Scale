@@ -1,0 +1,24 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine 
+
+ public class scaleManage : MonoBehaviour { 
+
+    public GameObject objectScaleTarget;   // the gameObject targeted for scaling   
+    public Rigidbody rb;
+    // 
+ 
+    // Scale Target:
+    Public Transform the scale;
+
+
+    void Update()
+    {
+
+       Vector3 theScale = rb.transform.localScale;
+       theScale.y *= -1;
+       m_Rb2D.transform.localScale = theScale;
+    }
+
+
+
