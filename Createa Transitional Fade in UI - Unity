@@ -1,0 +1,21 @@
+CSharp - Unity - Create a Transitional Fade on UI Initializer:
+
+// source 
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;
+
+public class uiTransitionManager : MonoBehaviour {
+
+    public 
+    public
+
+  // Transition 
+
+
+
+
+
+
+
+
