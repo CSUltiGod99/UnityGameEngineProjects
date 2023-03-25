@@ -14,6 +14,19 @@ public class uiTransitionManager : MonoBehaviour {
 
 
 
+  // Animator
+
+
+    public int canvasRendTime = 3;
+
+
+
+
+
+
+
+
+
 
 
 
