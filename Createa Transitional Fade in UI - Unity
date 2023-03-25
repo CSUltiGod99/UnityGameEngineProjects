@@ -19,14 +19,35 @@ public class uiTransitionManager : MonoBehaviour {
 
     public int canvasRendTime = 3;
 
+  // The Script (Parent):
+    
+using System.Collections.Generic;
+using System.Collections;
+using UnityEngine;
+using UnityEngine.UI;
+
+public Class FadeToBlack : MonoBehaviour
+{
+    public Image blackScreen;
+    public float fadeToBlackDuration;
+
+   public void FadeToBlack()
+   {
+       blackScreen.color = color.black;
+       blackScreen.canvasRenderer.SetAlpha(0.0f);  // The canvas renderer changes the canvas
+       blackScreen.CrossFadeAlpha(1.0f, fadeToBlackDuration, false);
+   }
+    public void FadeFromBlack()
+    {
+       blackScreen.color = color.black;
+       blackScreen.canvasRenderer.SetAlpha(1.0f);
+       blackScreen.CrossFadeAlpha(0.0f, fadeToBlackDuration, false);
+    }
 
 
 
 
-
-
-
-
+       
 
 
 
